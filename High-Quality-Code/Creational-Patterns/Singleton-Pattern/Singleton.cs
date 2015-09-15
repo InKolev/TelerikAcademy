@@ -31,11 +31,6 @@ namespace ShaxxLibrary.Engine
                 return instance;
             }
         }
-
-        public static void Run()
-        {
-
-        }
     }
 }
 
