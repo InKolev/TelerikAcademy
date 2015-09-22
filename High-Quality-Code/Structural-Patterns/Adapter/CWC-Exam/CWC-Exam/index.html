@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>My project</title>
+    <style>
+        #main-menu {
+            list-style-type: none;
+            margin-left: 20px;
+            padding-left: 0;
+        }
+
+            #main-menu li {
+                display: inline-block;
+                margin-right: 15px;
+                border: 1px solid black;
+                padding: 10px;
+            }
+
+                #main-menu li:hover {
+                    cursor: pointer;
+                    background-color: black;
+                    color: white;
+                }
+
+        #main-content {
+            margin-left: 20px;
+            border: 1px solid black;
+            display: inline-block;
+            width: 450px;
+            height: 250px;
+            line-height: 250px;
+        }
+
+        #main-content div {
+            text-align: center;
+            font-size: 25px;
+        }
+    </style>
+
+</head>
+<body>
+    <ul id="main-menu">
+        <li id="home-page">
+            Home
+        </li>
+        <li id="courses-page">
+            Courses
+        </li>
+        <li id="about-page">
+            About
+        </li>
+        <li id="contact-page">
+            Contact
+        </li>
+    </ul>
+    <div id="main-content">
+        <div id="home-page-content" style="display: none">
+            Home content
+        </div>
+        <div id="courses-page-content" style="display: none">
+            Courses content
+        </div>
+        <div id="about-page-content" style="display: none">
+            About content
+        </div>
+        <div id="contact-page-content" style="display: none">
+            Contact content
+        </div>
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script>
+        function hideAllContent() {
+            $('#home-page-content').hide();
+            $('#courses-page-content').hide();
+            $('#about-page-content').hide();
+            $('#contact-page-content').hide();
+        }
+
+        $('#home-page').on('click', function () {
+            hideAllContent();
+            $('#home-page-content').show();
+        });
+
+        $('#courses-page').on('click', function () {
+            hideAllContent();
+            $('#courses-page-content').show();
+        });
+
+        $('#about-page').on('click', function () {
+            hideAllContent();
+            $('#about-page-content').show();
+        });
+
+        $('#contact-page').on('click', function () {
+            hideAllContent();
+            $('#contact-page-content').show();
+        });
+    </script>
+</body>
+</html>
