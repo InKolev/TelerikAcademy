@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="style.xslt" ?>
+<students>
+
+  <student xmlns:students="urn:students-xml:homework">
+    <name>Michael</name>
+    <sex>Male</sex>
+    <birthDate>1994-10-06</birthDate>
+    <phone>+359842174124</phone>
+    <email>michael@gmail.com</email>
+    <course>III</course>
+    <specialty>.NET Ninja</specialty>
+    <facultyNumber>121213114</facultyNumber>
+    <exams>
+      <exam>
+        <name>Databases</name>
+        <tutor>
+          <name>Jordan</name>
+          <endorsments>C#, JavaScript, HTML, React.js.</endorsments>
+        </tutor>
+        <score>200</score>
+        <date>2015-12-12</date>
+      </exam>
+    </exams>
+  </student>
+
+  <student xmlns:students="urn:students-xml:homework">
+    <name>Angela</name>
+    <sex>Female</sex>
+    <birthDate>1994-05-02</birthDate>
+    <phone>+359842142142</phone>
+    <email>angela@gmail.com</email>
+    <course>II</course>
+    <specialty>Mean Stack</specialty>
+    <facultyNumber>121213115</facultyNumber>
+    <exams>
+      <exam>
+        <name>React.js</name>
+        <tutor>
+          <name>Jordan</name>
+          <endorsments>C#, JavaScript, HTML, React.js.</endorsments>
+        </tutor>
+        <score>152</score>
+        <date>2015-05-12</date>
+      </exam>
+      <exam>
+        <name>CSS3</name>
+        <tutor>
+          <name>Jordan</name>
+          <endorsments>C#, JavaScript, HTML, React.js.</endorsments>
+        </tutor>
+        <score>230</score>
+        <date>2015-06-12</date>
+      </exam>
+    </exams>
+  </student>
+
+</students>
