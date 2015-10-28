@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<catalogue xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <albums>
+
+    <album>
+      <name>Greed Is Gone</name>
+      <artist>Immortal Technique</artist>
+      <year>2014</year>
+      <producer>Street Art Media</producer>
+      <price>19.99</price>
+      <songs>
+        <song>
+          <title>The reason of death.</title>
+          <duration>4:00</duration>
+        </song>
+        <song>
+          <title>Is happiness just a word.</title>
+          <duration>3:56</duration>
+        </song>
+      </songs>
+    </album>
+
+    <album>
+      <name>Hellofaplaya</name>
+      <artist>2pac</artist>
+      <year>2013</year>
+      <producer>Suge Knight</producer>
+      <price>9.99</price>
+      <songs>
+        <song>
+          <title>Brenda has a baby.</title>
+          <duration>5:00</duration>
+        </song>
+        <song>
+          <title>Hellrazor.</title>
+          <duration>2:56</duration>
+        </song>
+      </songs>
+    </album>
+
+      <album>
+      <name>Superman</name>
+      <artist>Eminem</artist>
+      <year>1998</year>
+      <producer>Slim Shady Inc</producer>
+      <price>29.99</price>
+      <songs>
+        <song>
+          <title>Superman</title>
+          <duration>5:00</duration>
+        </song>
+        <song>
+          <title>Mockingbird</title>
+          <duration>3:30</duration>
+        </song>
+      </songs>
+    </album>
+    
+    <album>
+      <name>All eyes on me</name>
+      <artist>2pac</artist>
+      <year>1993</year>
+      <producer>Suge Knight</producer>
+      <price>9.99</price>
+      <songs>
+        <song>
+          <title>All eyes on me.</title>
+          <duration>5:00</duration>
+        </song>
+        <song>
+          <title>Only god can stop me.</title>
+          <duration>2:56</duration>
+        </song>
+      </songs>
+    </album>
+
+    <album>
+      <name>Don Killuminati</name>
+      <artist>2pac</artist>
+      <year>1996</year>
+      <producer>Death row Records</producer>
+      <price>9.99</price>
+      <songs>
+        <song>
+          <title>Hail Mary.</title>
+          <duration>5:00</duration>
+        </song>
+        <song>
+          <title>Blasphemy.</title>
+          <duration>2:56</duration>
+        </song>
+      </songs>
+    </album>
+
+    <album>
+      <name>The 3rd World</name>
+      <artist>Immortal Technique</artist>
+      <year>2008</year>
+      <producer>Street Art Media</producer>
+      <price>19.99</price>
+      <songs>
+        <song>
+          <title>Death march.</title>
+          <duration>4:00</duration>
+        </song>
+        <song>
+          <title>That's what it is.</title>
+          <duration>3:56</duration>
+        </song>
+      </songs>
+    </album>
+
+  </albums>
+</catalogue>

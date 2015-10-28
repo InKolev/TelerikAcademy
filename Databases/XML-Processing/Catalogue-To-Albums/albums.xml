@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<albums>
+    <album>
+        <name>Greed Is Gone</name>
+        <artist>Immortal Technique</artist>
+    </album>
+    <album>
+        <name>Hellofaplaya</name>
+        <artist>2pac</artist>
+    </album>
+    <album>
+        <name>Superman</name>
+        <artist>Eminem</artist>
+    </album>
+    <album>
+        <name>All eyes on me</name>
+        <artist>2pac</artist>
+    </album>
+    <album>
+        <name>Don Killuminati</name>
+        <artist>2pac</artist>
+    </album>
+    <album>
+        <name>The 3rd World</name>
+        <artist>Immortal Technique</artist>
+    </album>
+</albums>
