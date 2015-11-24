@@ -16,6 +16,25 @@
             {
                 Console.WriteLine("Key{{{0}}} --> Value{{{1}}}", pair.Key, pair.Value);
             }
+
+            // OR 
+
+            var buckets = new int[1000];
+
+            foreach(var value in list)
+            {
+                buckets[value]++;
+            }
+
+            Console.WriteLine();
+
+            for (int i = 0; i < buckets.Length; i++)
+            {
+                if (buckets[i] != 0)
+                {
+                    Console.WriteLine("Element: {0} --> {1} times.", i, buckets[i]);
+                }
+            }
         }
     }
 }

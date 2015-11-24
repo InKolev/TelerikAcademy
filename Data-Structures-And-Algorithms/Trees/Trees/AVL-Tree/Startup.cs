@@ -13,14 +13,16 @@ namespace Trees.AVLTree
             PrintTree(tree, TraverseOrder.InOrder);
             PrintTree(tree, TraverseOrder.PreOrder);
             PrintTree(tree, TraverseOrder.PostOrder);
-            PrintTree(tree, TraverseOrder.RightLeftOrder);
+            PrintTree(tree, TraverseOrder.RightLeftParentOrder);
+
+            DisplayHeight(tree);
         }
 
         public static void PrintTree(BinaryTree<int> binaryTree, TraverseOrder traverseOrder)
         {
             binaryTree.TraversalOrder = traverseOrder;
 
-            Console.WriteLine("{0} ", traverseOrder.ToString());
+            Console.WriteLine("{0} traversal.", traverseOrder.ToString());
 
             foreach (var node in binaryTree)
             {
@@ -32,10 +34,16 @@ namespace Trees.AVLTree
 
         public static void AddElements(BinaryTree<int> binaryTree, int count)
         {
-            for (int i = 0; i < count; i++)
+            for (int i = 1; i <= count; i++)
             {
                 binaryTree.Add(i);
             }
+        }
+
+        public static void DisplayHeight(BinaryTree<int> binaryTree)
+        {
+            Console.WriteLine("Height ---> {0} levels.", binaryTree.GetHeight());
+            Console.WriteLine("Count  ---> {0} elements.", binaryTree.Count);
         }
     }
 }

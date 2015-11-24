@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVL-Tree", "AVL-Tree\AVL-Tree.csproj", "{8F66C247-AD83-47ED-95B0-CEF1EFC2DD0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vanilla-Tree", "Vanilla-Tree\Vanilla-Tree.csproj", "{DF1BE736-AB64-4288-8EC7-C70C915F3905}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8F66C247-AD83-47ED-95B0-CEF1EFC2DD0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F66C247-AD83-47ED-95B0-CEF1EFC2DD0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F66C247-AD83-47ED-95B0-CEF1EFC2DD0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF1BE736-AB64-4288-8EC7-C70C915F3905}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF1BE736-AB64-4288-8EC7-C70C915F3905}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF1BE736-AB64-4288-8EC7-C70C915F3905}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF1BE736-AB64-4288-8EC7-C70C915F3905}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

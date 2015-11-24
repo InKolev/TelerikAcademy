@@ -8,6 +8,6 @@
         InOrder = 0,
         PostOrder = 1,
         PreOrder = 2,
-        RightLeftOrder = 3
+        RightLeftParentOrder = 3
     }
 }

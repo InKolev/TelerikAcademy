@@ -8,10 +8,10 @@ namespace Labirynth_Run
 {
     public class Startup
     {
-        //public static void Main()
-        //{
-        //    var labirynthRunner = new LabirynthRunner();
-        //    labirynthRunner.Start();
-        //}
+        public static void Main()
+        {
+            var labirynthRunner = new LabirynthRunner();
+            labirynthRunner.Start();
+        }
     }
 }

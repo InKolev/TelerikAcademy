@@ -1,0 +1,9 @@
+BigList<T> Fast Insert/Delete operations. Fast Copy/Concat/Sub-range operations. Implemented by the data structure "Rope" Special kind of balanced binary tree.
+
+OrderedBag<T> 
+OrderedSet<T>
+Multidictionary<string, int> {"Pesho", 3} , {"Pesho",4}, { "Gosho", 6} ==> Search by key "Pesho" returns a List<int>{3,4};
+OrderedMultidictionary<string, int>
+Deque<T> AddToBack(), AddToFront()
+PriorityQueue<T> (can use OrderedBag<T> instead)
+BinaryHeap

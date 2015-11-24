@@ -409,7 +409,7 @@
                     {
                         return GetPreOrderEnumerator();
                     }
-                case TraverseOrder.RightLeftOrder:
+                case TraverseOrder.RightLeftParentOrder:
                     {
                         return GetRightLeftParentOrderEnumerator();
                     }
